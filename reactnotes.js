@@ -22,6 +22,33 @@ const title = React.createElement(
 
 /*
 ReactDOM.render() = renders react objects to the DOM --- it accepts 2 arguments
-1.  
-2.
+1.  The element that describes what you want to render (cons title above)
+2.  The location/element you want to update or render to 
 */
+
+ReactDOM.render(
+    title,
+    document.getElementById('')
+)
+
+// --------JSX--------
+// Essentailly a shortened way to store react style object in a variable
+// The following two blocks of code share the same result
+const story = React.createElement(
+    'h1',
+    {},
+    'this is my story',
+)
+
+const storyy = <h1>this is my story</h1>
+
+//----------you can use js variables using curly brackets {}-------
+const john = 'my name is john'
+const gender = 'I am a man'
+
+const header = (
+    <header>
+        <h1>{john}</h1>
+        <p>{gender}</p>
+    </header>
+)
