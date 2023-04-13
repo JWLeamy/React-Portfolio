@@ -2,9 +2,10 @@ import React from 'react';
 // Here we import the Section.css file to grant access to some additional classNameNames
 import '../styles/Section.css';
 import '../styles/Basic.css';
+import Pixum from '../Images/FinalPixum.png'
+import Sneaky from '../Images/SneakyFinal.png'
 
 function Section() {
-  // TODO: Add a style attribute to `section`
   return (
     <section className="three">
                 <div id="psections">
@@ -28,7 +29,7 @@ function Section() {
                             <a href="https://mkalik.github.io/pixum/">
                                 <div className="blank-result-card">
                                     <div className="app-container" >
-                                    <img src="assets/Images/FinalPixum.png" className="app-thumbnail" alt="project1" />
+                                    <img src={Pixum} className="app-thumbnail" alt="project1" />
                                     </div>
                                 </div>
                             </a>
@@ -38,7 +39,7 @@ function Section() {
                             <a href="https://sneakylink-project-2.herokuapp.com/">
                                 <div className="blank-result-card">
                                     <div className="app-container" >
-                                    <img src="assets/Images/SneakyFinal.png" className="app-thumbnail" alt="project2" />
+                                    <img src={Sneaky} className="app-thumbnail" alt="project2" />
                                     </div>
                                 </div>
                             </a>
