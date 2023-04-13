@@ -7,13 +7,13 @@ import Button from "./components/Button"
 
 function App() {
   return (
-    <body>
+    <div>
       <Navbar />
       <Button />
       <Header />
       <Aboutme />
       <Section />
-    </body>
+    </div>
   );
 }
 
