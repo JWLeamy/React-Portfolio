@@ -1,12 +1,42 @@
 import React from 'react';
+import * as $ from 'jquery'
 // Here we import the Navbar.css file to grant access to some additional classNameNames
 import '../styles/Navbar.css';
 import '../styles/Basic.css';
 
+function setNav() {
+
+    if (($(".navbar").width()) === (0)){
+        console.log("nav is opening")
+        openNav()
+    } else {
+        console.log("nav is closing")
+        closeNav()
+        } 
+    }
+
+function openNav() {
+  $(".navbar").css("width", "15%");
+  $(".navbar").css("margin-Left", "15%");
+  $("main").css("padding-left", "15%")
+  $(".navbut").css("visibility", "visible");
+  $(".icon svg").css("transform", "rotate(135deg)")
+}
+
+function closeNav() {
+  $(".navbar").css("width", "0");
+  $("main").css("padding-left", "0")
+  $(".navbar").css("margin-Left", "0");
+  $(".navbut").css("visibility", "collapse");
+  $(".icon svg").css("transform", "rotate(-45deg)")
+}
+
+
+
 function Button() {
 
   return (
-    <span className="menubutton" onclick="setNav()">
+    <span className="menubutton" onClick={setNav}>
             <div className="wrapper">
                 <div className="link_wrapper">
 
