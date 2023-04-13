@@ -1,6 +1,7 @@
 import React from 'react';
 // Here we import the Navbar.css file to grant access to some additional classNameNames
 import '../styles/Navbar.css';
+import '../styles/Basic.css';
 
 function Navbar() {
 
