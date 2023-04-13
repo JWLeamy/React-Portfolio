@@ -1,12 +1,68 @@
-.header {
-  background: #b71775;
-  height: 200px;
+.homepage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.header h1 {
-  margin: 0;
-  padding-top: 75px;
+.title {
+  margin-top: 15%;
   text-align: center;
-  color: white;
-  font-size: 3rem;
+}
+
+.title h1 {
+  font-size: 100px;
+  color: var(--gold);
+  font-family: "Caramel", curisve;
+}
+
+.title p {
+  color: var(--lightblue);
+  margin-top: 20%;
+}
+
+.name {
+  position: relative;
+  -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
+  font-size: 60px;
+}
+
+@keyframes name {
+  0%,
+  60%,
+  100% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
+}
+
+@keyframes up {
+  to {
+    transform: rotate(360dg);
+  }
+}
+
+@keyframes down {
+  to {
+    transform: rotate(0deg);
+  }
+}
+
+.l {
+  display: inline-block;
+  animation: name 2s;
+  animation-delay: calc(0.1s * var(--i));
+}
+
+.name span {
+  transition: transform 1550ms;
+}
+.name span:hover {
+  transform: translateY(-20px);
+  animation: name 2s;
+}
+
+.homepage h2 {
+  position: relative;
 }
