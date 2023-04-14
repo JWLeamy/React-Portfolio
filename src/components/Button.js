@@ -1,9 +1,11 @@
 import React from 'react';
+//use jquery to adjust navbar button
 import * as $ from 'jquery'
-// Here we import the Navbar.css file to grant access to some additional classNameNames
+//import styling
 import '../styles/Navbar.css';
 import '../styles/Basic.css';
 
+// if nav bar is closed, open it. if nav bar is open, close it
 function setNav() {
 
     if (($(".navbar").width()) === (0)){
@@ -15,6 +17,7 @@ function setNav() {
         } 
     }
 
+// open nav 
 function openNav() {
   $(".navbar").css("width", "15%");
   $(".navbar").css("margin-Left", "15%");
@@ -23,6 +26,7 @@ function openNav() {
   $(".icon svg").css("transform", "rotate(135deg)")
 }
 
+// close nav
 function closeNav() {
   $(".navbar").css("width", "0");
   $("main").css("padding-left", "0")
@@ -31,8 +35,7 @@ function closeNav() {
   $(".icon svg").css("transform", "rotate(-45deg)")
 }
 
-
-
+// button that controls the navbar feature
 function Button() {
 
   return (

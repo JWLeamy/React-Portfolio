@@ -15,7 +15,7 @@
 }
 
 .menubutton {
-  position: absolute;
+  position: fixed;
   margin-top: 50px;
   margin-left: 40px;
   font-size: xx-large;

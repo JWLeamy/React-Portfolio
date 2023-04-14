@@ -3,8 +3,8 @@ import React from "react";
 import "../styles/Header.css";
 import '../styles/Basic.css';
 
+// My name, opening title (what the client will see when they open the webpage)
 function Header() {
-  // TODO: Add a style attribute to header and the h1 element
 
   return (
     <section className="one">

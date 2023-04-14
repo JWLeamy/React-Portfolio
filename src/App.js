@@ -3,7 +3,8 @@ import Header from "./components/Header";
 import Section from "./components/Section";
 import Navbar from "./components/Navbar";
 import Aboutme from "./components/Aboutme";
-import Button from "./components/Button"
+import Button from "./components/Button";
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <Aboutme />
       <Section />
+      <Footer />
       </main>
     </div>
   );
