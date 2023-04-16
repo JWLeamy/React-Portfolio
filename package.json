@@ -1,4 +1,6 @@
 {
+  "homepage" : "https://JWLeamy.github.io/React-Portfolio",
+
   "name": "bucket-list",
   "version": "0.1.0",
   "private": true,
@@ -42,3 +44,4 @@
     ]
   }
 }
+

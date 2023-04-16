@@ -14,7 +14,7 @@ function Aboutme() {
                     <h2>About Me</h2>
                 </div>
                 <div className="bio">
-                <img src={hasbulla} className="hasbulla"/>    
+                <img src={hasbulla} className="hasbulla" alt="hasbullaselfie"/>    
                 <p>
                     Aspiring Develeoper with a drive to conceptualize, create, and ultimately provide useful full stack applications. <br />
                     Since writing my first line of code only four months ago, I've expanded my skillset across multiple programming languages and frameworks. <br />
