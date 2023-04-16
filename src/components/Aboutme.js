@@ -2,6 +2,7 @@ import React from 'react';
 // Here we import the Navbar.css file to grant access to some additional classNameNameNames
 import '../styles/Aboutme.css';
 import '../styles/Basic.css';
+import hasbulla from '../Images/hasbullaclose.png'
 
 function Aboutme() {
 
@@ -13,7 +14,8 @@ function Aboutme() {
                     <h2>About Me</h2>
                 </div>
                 <div className="bio">
-                    <p>
+                <img src={hasbulla} className="hasbulla"/>    
+                <p>
                     Aspiring Develeoper with a drive to conceptualize, create, and ultimately provide useful full stack applications. <br />
                     Since writing my first line of code only four months ago, I've expanded my skillset across multiple programming languages and frameworks. <br />
                     <br />

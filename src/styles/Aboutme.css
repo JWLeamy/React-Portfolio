@@ -28,3 +28,13 @@
     margin: 30px;
     border-right: 5px solid var(--lightblue);
   }
+
+  .hasbulla {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 400px;
+    margin: 50px;
+    border-radius: 300px;
+  }

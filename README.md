@@ -58,5 +58,5 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 Don't bother installing - this is my portfolio, not yours.
   
 ## Usage
-Visit the deployed application and check out my projects. 
+Visit the deployed application and check out my projects.
 
