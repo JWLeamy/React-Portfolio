@@ -1,4 +1,6 @@
 .footer-clean {
+  position: fixed;
+  bottom: 0px;
     display:flex;
     justify-content: center;
     align-items: center;
@@ -9,6 +11,7 @@
 
   footer {
     display: inline;
+    margin-bottom: 0px;
   }
 
   .build {
