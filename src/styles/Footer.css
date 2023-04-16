@@ -3,7 +3,7 @@
     justify-content: center;
     align-items: center;
     padding:10px 0;
-    background-color:#fff;
+    background-color:var(--lightblue);
     color:#4b4c4d;
   }
 
@@ -15,9 +15,11 @@
     display: flex;
   }
   
-  .contact {
+  .contact h3 {
     padding: 0px 90px 0px 90px;
+    color: var(--gold);
   }
+
   .contact ul {
     display: flex;
     justify-content: center;

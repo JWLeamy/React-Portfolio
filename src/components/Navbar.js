@@ -13,7 +13,7 @@ function Navbar() {
 
           <a href="#psections" className="navbut"><i className="navcon fa-solid fa-computer"></i><br />My Projects</a>
 
-          <a href="#" className="navbut"><i className="navcon fa-regular fa-envelope"></i><br />Contact Info</a>
+          <a href="#footer" className="navbut"><i className="navcon fa-regular fa-envelope"></i><br />Contact Info</a>
 
       </div>
     </nav>

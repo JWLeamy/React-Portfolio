@@ -8,24 +8,24 @@ function Footer() {
   return (
     <div className="footer-clean">
         <footer>
-            <div className="foot">
+            <div className="foot" id="footer">
                 <div className="build">
                     <div className="contact">
                         <h3>Github</h3>
                         <ul>
-                            <li ><a href="https://github.com/JWLeamy"><i class="fa-brands fa-github"></i></a></li>
+                            <li ><a href="https://github.com/JWLeamy"><i className="fa-brands fa-github fa-3x"></i></a></li>
                         </ul>
                     </div>
                     <div className="contact">
                         <h3>Email Me</h3>
                         <ul>
-                            <li><a href="mailto:jwleamy@gmail.com"><i class="fa-solid fa-envelope"></i></a></li>
+                            <li><a href="mailto:jwleamy@gmail.com"><i className="fa-solid fa-envelope fa-3x"></i></a></li>
                         </ul>
                     </div>
                     <div className="contact">
                         <h3>LinkedIn</h3>
                         <ul>
-                            <li><a href="https://www.linkedin.com/in/john-leamy-b68676238/"><i class="fa-brands fa-linkedin"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/john-leamy-b68676238/"><i className="fa-brands fa-linkedin fa-3x"></i></a></li>
                         </ul>
                     </div>
                 </div>
