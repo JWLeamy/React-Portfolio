@@ -60,7 +60,7 @@
 }
 .name span:hover {
   transform: translateY(-20px);
-  animation: name 2s;
+  animation: name 3s;
 }
 
 .homepage h2 {
