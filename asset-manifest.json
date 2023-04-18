@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.5e52e51c.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.4b2a8274.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.4b2a8274.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.e7fc77d3.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.e7fc77d3.js.map",
+    "static/js/2.ee271743.chunk.js": "/React-Portfolio/static/js/2.ee271743.chunk.js",
+    "static/js/2.ee271743.chunk.js.map": "/React-Portfolio/static/js/2.ee271743.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "static/css/main.5e52e51c.chunk.css.map": "/React-Portfolio/static/css/main.5e52e51c.chunk.css.map",
+    "static/js/2.ee271743.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.ee271743.chunk.js.LICENSE.txt",
+    "static/media/FinalPixum.be9cf3be.png": "/React-Portfolio/static/media/FinalPixum.be9cf3be.png",
+    "static/media/SneakyFinal.b0db6e8a.png": "/React-Portfolio/static/media/SneakyFinal.b0db6e8a.png",
+    "static/media/hasbullaclose.c0b5653c.png": "/React-Portfolio/static/media/hasbullaclose.c0b5653c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e7fc77d3.js",
+    "static/js/2.ee271743.chunk.js",
+    "static/css/main.5e52e51c.chunk.css",
+    "static/js/main.4b2a8274.chunk.js"
+  ]
+}
