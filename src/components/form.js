@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../styles/Aboutme.css';
 
 const styles = {
   input: {
@@ -8,6 +9,7 @@ const styles = {
   inputMessage: {
     marginTop: 10,
     paddingBottom: 40,
+    paddingTop:40,
   },
   submitBtn: {
     marginTop: 20
@@ -54,8 +56,7 @@ function Form() {
 
   return (
     <div>
-        <card className="card">
-        <h3 className="title">Contact Me</h3>
+        <card className="infoinput">
         <form className="form">
             <input
             value={firstName}

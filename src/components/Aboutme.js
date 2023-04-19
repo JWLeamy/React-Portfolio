@@ -9,11 +9,12 @@ function Aboutme() {
 
   return (
     <section className="two">
+        <div className="abmhead">
+                    <h2>About Me</h2>
+        </div>
         <div className="formats" id="abmm">
             <div className="abm">
-                <div className="abmhead">
-                    <h2>About Me</h2>
-                </div>
+                
                 <div className="bio">
                     <img src={hasbulla} className="hasbulla" alt="hasbullaselfie"/>   
                     <div className='biotext'> 
@@ -27,7 +28,7 @@ function Aboutme() {
                     </div>
                 </div>
             </div>
-            <div>
+            <div className='contactf'>
                 <h1>Contact Me</h1>
                 <div>
                     <Form />

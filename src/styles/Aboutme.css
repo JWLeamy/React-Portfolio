@@ -11,6 +11,8 @@
     min-height: 400px;
     max-width: 80%;
     background-color:var(--lightblue);
+    width: 60%;
+    margin: 45px;
   }
   
   .bio {
@@ -30,6 +32,16 @@
     border-right: 5px solid var(--lightblue);
   }
 
+  .contactf {
+    margin: 45px;
+    height: fit-content;
+    width: 170px;
+  }
+ .form input {
+  display: block;
+  height: 40px;
+  margin: 20px 0px 20px 0px;
+ }
   .hasbulla {
     display: flex;
     justify-content: center;

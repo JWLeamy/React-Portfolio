@@ -51,6 +51,7 @@ section {
     background-color: var(--jeanblue);
     display: flex;
     justify-content: center;
+    flex-direction: column;
   }
   
   .three {

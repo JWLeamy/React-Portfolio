@@ -74,16 +74,16 @@
 }
 
 .welcome {
-  width: 40%;
+  width: fit-content;
   position: absolute;
   left: 40%;
-  border-bottom: 5px solid black;
   overflow: hidden;
   animation: animate 2s linear forwards;
 }
 
 .welcome h2 {
   color: black;
+  border-bottom: 1px solid black;
 }
 
 @keyframes animate {
