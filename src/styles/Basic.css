@@ -55,7 +55,6 @@ section {
   
   .three {
     background-color: var(--main);
-    height: 100vh;
   }
   
   .container {
@@ -63,6 +62,18 @@ section {
     height: 100vh;
     overflow-y: scroll;
   }
+
+  /*------------  Welcome Section Styling  ------------*/
+
+.welcome {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+  place-items: center;
+  margin-top: 100px;
+  color: black;
+}
 
   /* For Desktop View */
 @media screen and (min-width: 1024px) {

@@ -15,8 +15,8 @@ function App() {
       <Header />
       <Aboutme />
       <Section />
-      <Footer />
       </main>
+      <Footer />
     </div>
   );
 }

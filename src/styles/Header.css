@@ -66,3 +66,37 @@
 .homepage h2 {
   position: relative;
 }
+
+
+.appear {
+  text-align: center;
+  width: 55%;
+}
+
+.welcome {
+  width: 40%;
+  position: absolute;
+  left: 40%;
+  border-bottom: 5px solid black;
+  overflow: hidden;
+  animation: animate 2s linear forwards;
+}
+
+.welcome h2 {
+  color: black;
+}
+
+@keyframes animate {
+  0% {
+      width: 0px;
+      height: 0px;
+  }
+  30% {
+      width: 50px;
+      height: 0px;
+  }
+  60% {
+      width: 50px;
+      height: 80px;
+  }
+}

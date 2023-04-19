@@ -22,8 +22,10 @@ function Header() {
           <p>Full Stack Web Developer, Business Graduate, and Creator</p>
         </div>
       </div>
-      <div className="welcome">
-        <h2>Welcome to My Portfolio.</h2>
+      <div className="appear">
+        <div className="welcome">
+          <h2>Welcome to My Portfolio.</h2>
+        </div>
       </div>
     </section>
   );

@@ -3,6 +3,7 @@ import React from 'react';
 import '../styles/Aboutme.css';
 import '../styles/Basic.css';
 import hasbulla from '../Images/hasbullaclose.png'
+import Form from './form'
 
 function Aboutme() {
 
@@ -24,6 +25,12 @@ function Aboutme() {
                         / JavaScript / Github / Node.js / Express.js / OOP / ORM / Heroku / MySQL / React & More <br />
                         </p>
                     </div>
+                </div>
+            </div>
+            <div>
+                <h1>Contact Me</h1>
+                <div>
+                    <Form />
                 </div>
             </div>
         </div>

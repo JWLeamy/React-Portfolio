@@ -1,6 +1,7 @@
 .footer-clean {
-  position: relative;
-  bottom: 0px;
+    position: relative;
+    padding-left: 0px;
+    bottom: 0px;
     display:flex;
     justify-content: center;
     align-items: center;
