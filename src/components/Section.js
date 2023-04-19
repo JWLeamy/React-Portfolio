@@ -25,7 +25,7 @@ function Section() {
                     </div>
                     <div className="projects">
                         <div className="cards">
-                            <h2>Pixum</h2>
+                            <h2 className='px'>Pixum</h2>
                             <a href="https://mkalik.github.io/pixum/">
                                 <div className="blank-result-card">
                                     <div className="app-container" >
@@ -33,9 +33,10 @@ function Section() {
                                     </div>
                                 </div>
                             </a>
+                            <p className='appinfo'>The easiest way to find new flix</p>
                         </div>
                         <div className="cards">
-                            <h2>SneakyLink</h2>
+                            <h2 className='sl'>SneakyLink</h2>
                             <a href="https://sneakylink-project-2.herokuapp.com/">
                                 <div className="blank-result-card">
                                     <div className="app-container" >
@@ -43,6 +44,7 @@ function Section() {
                                     </div>
                                 </div>
                             </a>
+                            <p className='appinfo'>Store all your socials in one place</p>
                         </div>
                     </div>
                 </div>
