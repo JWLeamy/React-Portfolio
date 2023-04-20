@@ -12,9 +12,8 @@
 }
 
 .projecthead {
-  margin-top: 5%;
+  margin-top: 25px;
   background-color: gray;
-  padding: 10px;
   border-radius: 20px;
   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -22,6 +21,7 @@
 .projects {
   margin: 100px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items:center;
   padding-bottom: 40px;
@@ -85,9 +85,9 @@
 }
 
 .app-container img {
-  height: 100%;
+  height: 300px;
   object-fit: contain;
-  width: 100%;
+  width: 400px;
 }
 
 .blank-result-card {
@@ -134,4 +134,9 @@
 
 .appinfo {
   font-family: 'Neuton Cursive', sans-serif;
+}
+
+.gob {
+  font-size: xx-large;
+  padding-bottom: 15px;
 }

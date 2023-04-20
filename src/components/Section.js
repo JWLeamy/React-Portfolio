@@ -4,6 +4,7 @@ import '../styles/Section.css';
 import '../styles/Basic.css';
 import Pixum from '../Images/FinalPixum.png'
 import Sneaky from '../Images/SneakyFinal.png'
+import GoB from '../Images/GoB.png'
 
 function Section() {
   return (
@@ -45,6 +46,17 @@ function Section() {
                                 </div>
                             </a>
                             <p className='appinfo'>Store all your socials in one place</p>
+                        </div>
+                        <div className="cards">
+                            <h2 className='gob'>GoBommarito</h2>
+                            <a href="https://go-bommarito.herokuapp.com/">
+                                <div className="blank-result-card">
+                                    <div className="app-container" >
+                                    <img src={GoB} className="app-thumbnail" alt="project2" />
+                                    </div>
+                                </div>
+                            </a>
+                            <p className='appinfo'>Blogs for travel, eating, and experience around the globe</p>
                         </div>
                     </div>
                 </div>
