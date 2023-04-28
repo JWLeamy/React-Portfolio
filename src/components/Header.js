@@ -19,8 +19,23 @@ function Header() {
           <h1 className="name">
             John Leamy
           </h1>
-          <p>Full Stack Web Developer, Business Graduate, and Creator</p>
         </div>
+        <div className="content">
+            <div className="containers">
+              <p className="text">
+                I develop
+              </p>          
+              <ul className="list">
+                <li className="item">organized</li>
+                <li className="item">efficient</li>
+                <li className="item">creative</li>
+                <li className="item">effective</li>
+              </ul>
+              <p className="closetext">
+                Full-Stack applications.
+              </p>
+            </div>
+          </div>
       </div>
       <div className="appear">
         <div className="welcome">

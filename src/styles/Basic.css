@@ -7,8 +7,9 @@
   --lightblue: #707793;
   --mint: #3bba9c;
   --gold: #ffd700;
-  --main: #43455c;
   --jeanblue: #5D76A9;
+  --main: #EAE7DC;
+  --grey: #8E8D8A;
 }
 
 * {
@@ -44,7 +45,7 @@ section {
   }
   
   .one {
-    background-color: white;
+    background-color: var(--main);
   }
   
   .two {

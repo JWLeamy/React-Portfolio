@@ -11,6 +11,7 @@ function Aboutme() {
     <section className="two">
         <div className="abmhead">
                     <h2>About Me</h2>
+                    <p>Full Stack Web Developer, Business Graduate, and Creator</p>
         </div>
         <div className="formats" id="abmm">
             <div className="abm">

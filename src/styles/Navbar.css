@@ -60,7 +60,7 @@
   top: calc(50% - 15px);
   left: calc(50% - 15px);
   transform: rotate(-45deg);
-  fill: var(--gold);
+  fill: black;
   transition: 1s;
 }
 
@@ -70,7 +70,7 @@
 
 .abut:hover {
   width: 100px;
-  border: 3px solid var(--gold);
+  border: 3px solid black;
   border-radius: 400px;
   color: var(--gold);
   transition: all 1s;
@@ -78,7 +78,7 @@
 
 .abut:hover + .icon {
   visibility: visible;
-  border: 3px solid var(--gold);
+  border: 3px solid black;
   right: -45%;
   transition: ease-in .35s;
 }
@@ -100,7 +100,7 @@
 
 .options a:visited {
   text-decoration: none;
-  color: var(--gold);
+  color: var(--main);
 }
 
 .navcon {
