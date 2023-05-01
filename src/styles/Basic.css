@@ -49,10 +49,7 @@ section {
   }
   
   .two {
-    background-color: var(--jeanblue);
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+    background-color: white;
   }
   
   .three {

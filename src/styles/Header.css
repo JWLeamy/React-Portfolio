@@ -35,7 +35,7 @@
 .nameintro {
   color: black;
   padding-bottom: 40px;
-  animation: fadeIn 6s;
+  animation: fadefirst 6s;
 }
 
 .homepage h2 {
@@ -58,6 +58,12 @@
 @keyframes fadeIn {
   0% { opacity: 0; }
   30% { opacity: 0;}
+  100% { opacity: 1; }
+}
+
+@keyframes fadefirst {
+  0% { opacity: 0; }
+  20% { opacity: 0;}
   100% { opacity: 1; }
 }
 
