@@ -1,3 +1,6 @@
+@import url('https://fonts.cdnfonts.com/css/raleway-5');
+
+
 .homepage {
   display: flex;
   flex-direction: column;
@@ -7,14 +10,15 @@
 
 .title {
   display: block;
-  margin: 15%;
+  margin: 15% 0 8% 0;
   text-align: center;
 }
 
 .title h1 {
   font-size: 100px;
   color: black;
-  font-family: "Caramel", curisve;
+  font-weight: lighter;
+  font-family: 'Raleway', sans-serif;
 }
 
 .title p {
@@ -22,10 +26,16 @@
   margin-top: 20%;
 }
 
-.name {
+.opening {
   position: relative;
   -webkit-box-reflect: below -20px linear-gradient(transparent, rgba(0, 0, 0, 0.2));
   font-size: 60px;
+}
+
+.nameintro {
+  color: black;
+  padding-bottom: 40px;
+  animation: fadeIn 6s;
 }
 
 .homepage h2 {
@@ -37,32 +47,18 @@
   width: 55%;
 }
 
+/*-----------Fade in welcome Text------------*/
 .welcome {
   width: fit-content;
   position: absolute;
   left: 40%;
-  overflow: hidden;
-  animation: animate 2s linear forwards;
+  animation: fadeIn 9s;
 }
 
-.welcome h2 {
-  color: black;
-  border-bottom: 1px solid black;
-}
-
-@keyframes animate {
-  0% {
-    width: 0px;
-    height: 0px;
-  }
-  30% {
-    width: 50px;
-    height: 0px;
-  }
-  60% {
-    width: 50px;
-    height: 80px;
-  }
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  30% { opacity: 0;}
+  100% { opacity: 1; }
 }
 
 /*-----------------------------Header Animations-------------------------------*/
@@ -81,19 +77,21 @@
   justify-content: center;
   align-items: center;
   height: 40px;
-  border: 5px solid black;
   font-size: smaller;
+  overflow: hidden;
+}
+.containers p {
+  font-family: 'Raleway', sans-serif;
 }
 
 .containers:before {
   content: "[";
-  left: 0;
+  right: 20px;
 }
 
 .containers:after {
   content: "]";
-  position: absolute;
-  right: 0;
+  left: 20px;
 }
 
 .containers:after,
@@ -122,14 +120,14 @@
 .list {
   position: relative;
   width: fit-content;
-  border: 5px solid grey;
   list-style: none;
+  color: var(--lightblue);
   margin: 0px 10px 0px 10px;
   -webkit-animation-name: change;
-  -webkit-animation-duration: 10s;
+  -webkit-animation-duration: 12s;
   -webkit-animation-iteration-count: infinite;
   animation-name: change;
-  animation-duration: 10s;
+  animation-duration: 12s;
   animation-iteration-count: infinite;
 }
 
@@ -161,7 +159,7 @@
 @keyframes change {
   0%, 
   15% {
-    transform: translate3d(0, -35%, 0);
+    transform: translate3d(0, -37%, 0);
   }
   30% {
     transform: translate3d(0, -12%, 0);
@@ -176,9 +174,9 @@
     transform: translate3d(0, 12%, 0);
   }
   90% {
-    transform: translate3d(0, -12%, 0);
+    transform: translate3d(0, -13%, 0);
   }
   100% {
-    transform: translate3d(0, -35%, 0);
+    transform: translate3d(0, -37%, 0);
   }
 }

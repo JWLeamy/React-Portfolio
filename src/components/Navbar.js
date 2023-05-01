@@ -11,7 +11,7 @@ function Navbar() {
 
           <a href="#abmm" className="navbut"><i className="navcon fa-regular fa-user"></i><br />About Me</a>
 
-          <a href="#psections" className="navbut"><i className="navcon fa-solid fa-computer"></i><br />My Projects</a>
+          <a href="#psections" className="navbut"><i className="navcon fa-solid fa-computer"></i><br />Projects</a>
 
           <a href="#footer" className="navbut"><i className="navcon fa-regular fa-envelope"></i><br />Contact Info</a>
 

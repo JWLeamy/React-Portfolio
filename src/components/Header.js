@@ -16,10 +16,13 @@ function Header() {
     <section className="one">
       <div className="homepage">
         <div className="title">
-          <h1 className="name">
-            John Leamy
+          <h1 className="opening">
+            Welcome
           </h1>
         </div>
+        <h2 className="nameintro">
+          <p>I'm John.</p>
+        </h2>
         <div className="content">
             <div className="containers">
               <p className="text">
@@ -39,7 +42,7 @@ function Header() {
       </div>
       <div className="appear">
         <div className="welcome">
-          <h2>Welcome to My Portfolio.</h2>
+          <h2>Scroll or use the navbar to nagiate.</h2>
         </div>
       </div>
     </section>
