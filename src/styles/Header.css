@@ -59,16 +59,17 @@
 }
 
 .appear {
-  text-align: center;
-  width: 55%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: fit-content;
+  bottom: 2vh;
 }
 
 /*-----------Fade in welcome Text------------*/
 .welcome {
-  width: fit-content;
-  position: absolute;
-  left: 40%;
   animation: fadeIn 9s;
+  height: fit-content;
 }
 
 @keyframes fadeIn {
@@ -86,12 +87,11 @@
 /*-----------------------------Header Animations-------------------------------*/
 .content {
   position: relative;
-  height: 160px;
   font-family: "Lato", sans-serif;
   font-size: 35px;
   line-height: 40px;
   color: black;
-  width: 720px;
+  width: 70%;
 }
 
 .containers {
