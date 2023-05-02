@@ -6,27 +6,26 @@ import hasbulla from "../Images/hasbullaclose.png";
 
 function Aboutme() {
   return (
-    <section className="two">
+    <section className="two" id="abmm">
       <div className="abmhead">
         <h2>About Me</h2>
         <p>Full Stack Web Developer, Business Graduate, and Creator</p>
       </div>
 
-      <div className="formats" id="abmm">
+      <div className="formats">
+        
         <div className="abm">
-
           <div className="pic">
             <img src={hasbulla} className="hasbulla" alt="hasbullaselfie" />
           </div>
-          <h2>
-            John Leamy
+          <h2 className="picname">
+            <p>John</p>
+            <p>Leamy</p>
           </h2>
-
-          <div className="picdes">
-            <h2>Developer</h2>
+          <div className="pictitle">
+            <h2>Student</h2>
           </div>
-
-          <ul>
+          <ul className="piclist">
             <li>LinkedIn</li>
             <li>Github</li>
           </ul>
@@ -35,6 +34,20 @@ function Aboutme() {
         
 
           <div className="biotext">
+            <h2>
+              Hello
+            </h2>
+            <h3> 
+              Who I am and What I do
+            </h3>
+            <div>
+              <button className="resume">
+                Resume
+              </button>
+              <button className="projectlink">
+                Projects
+              </button>
+            </div>
             <p>
               Aspiring Develeoper with a drive to conceptualize, create, and
               ultimately provide useful full stack applications. <br /> <br />
