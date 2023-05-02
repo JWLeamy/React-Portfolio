@@ -35,10 +35,10 @@ function Aboutme() {
 
           <div className="biotext">
             <h2>
-              Hello
+              WHO
             </h2>
             <h3> 
-              Who I am and What I do
+              I am and What I do
             </h3>
             <div>
               <button className="resume">

@@ -16,7 +16,7 @@ function Header() {
     <section className="one">
       <div className="homepage">
         <div className="title">
-          <h1 className="opening">
+          <h1 className="opening l">
             Welcome
           </h1>
         </div>

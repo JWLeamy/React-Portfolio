@@ -71,7 +71,7 @@
 
 .projectlink {
   margin: 15px;
-  border-radius: 10px;
+  border-radius: 50px;
   height: 40px;
   width: 120px;
   background-color: white;
@@ -81,7 +81,7 @@
 
 .resume {
   margin: 15px;
-  border-radius: 10px;
+  border-radius: 50px;
   height: 40px;
   width: 120px;
   background-color: #1DA1F2;
