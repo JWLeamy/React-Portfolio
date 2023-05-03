@@ -56,11 +56,6 @@ section {
     background-color: var(--main);
   }
   
-  .container {
-    scroll-snap-type: y proximity;
-    height: 100vh;
-    overflow-y: scroll;
-  }
 
   /*------------  Welcome Section Styling  ------------*/
 

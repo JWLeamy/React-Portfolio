@@ -8,7 +8,6 @@
   position: relative;
   display: flex;
   top: 4vh;
-  border: 5px solid black;
   justify-content: center;
   color: black;
   white-space: nowrap;
@@ -30,95 +29,133 @@
 }
 
 .profilebox {
-  border: 5px solid black;
   height: 70%;
   margin-top: 5vh;
   display: flex;
 }
 
 .skillset {
-  border: 5px solid blue;
   width: 50%;
 }
 
+.wordset {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+
 .formats {
+  position: relative;
   display: flex;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-  width: 40%;
-  height: 80%;
+  width: 90%;
+  height: 90%;
+  max-width: 40vw;
 }
 
 .abm {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   background-color: var(--main);
-  width: 50%;
   align-items: center;
   color: black;
+  width: 45%;
+}
+
+.abm ul {
+  justify-self: flex-end;
+  align-self: flex-end;
 }
 .picname {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px;
-  border-bottom: 5px solid var(--lightblue);
+  font-size: 3vh;
+  font-family: "Raleway", sans-serif;
 }
 
 .pictitle h2 {
-  padding-top: 20px;
   font-weight: lighter;
+  font-size: 2vh;
 }
 
 .piclist {
-  margin-top: auto;
   background-color: white;
   width: 100%;
+  height: fit-content;
   display: flex;
   list-style: none;
   justify-content: space-around;
 }
 
+  
 .biotext {
+  position: relative;
   color: black;
-  padding: 15px;
+  width: 55%;
+  padding: 3%;
 }
 
 .biotext h2 {
   font-family: "Raleway", sans-serif;
-  font-size: 100px;
+  font-size: 4em;
+}
+
+.bioinfo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60%;
+  font-size: 1.75vh;
 }
 
 .projectlink {
-  margin: 15px;
+  margin: 3%;
   border-radius: 50px;
-  height: 40px;
-  width: 120px;
+  height: 90%;
+  width: 30%;
   background-color: white;
   font-family: "Raleway", sans-serif;
-  font-size: larger;
+  font-size: 1.1em;
+}
+
+.biotext button {
+  height: 4vh;
 }
 
 .resume {
-  margin: 15px;
+  margin: 3%;
   border-radius: 50px;
-  border: 0px;
-  height: 40px;
-  width: 120px;
+  width: 30%;
+  border: 0;
   background-color: #1da1f2;
   color: white;
   font-family: "Raleway", sans-serif;
-  font-size: larger;
+  font-size: 1.1em;
+}
+
+.pic {
+  position: relative;
+  height: 40%;
+  top: 4vh;
+  margin-bottom: 25%;
 }
 
 .hasbulla {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 250px;
-  width: 250px;
-  margin: 50px;
+  height: 100%;
+  width: 100%;
   border-radius: 300px;
+}
+
+.contrast {
+  color: #1da1f2;
 }
