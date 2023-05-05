@@ -9,7 +9,7 @@ const skills = [
     name: "Team Player",
     icon: <i class="fa-solid fa-people-group fa-2x"></i>,
     description:
-      "Providing concise comments, informative feedback, and exceptional communication when programming in a team setting.",
+      "Concise comments, informative feedback, and exceptional communication when programming in a team setting.",
   },
   {
     name: "Responsive",
@@ -20,13 +20,13 @@ const skills = [
   {
     name: "Dynamic",
     icon: <i class="fa-solid fa-atom fa-2x"></i>,
-    description: " Pride myself on making my applications come to life.",
+    description: "Producing websites and applications that come to life.",
   },
   {
     name: "Detail",
     icon: <i class="fa-solid fa-code fa-2x"></i>,
     description:
-      "Detail - Always keeping code clear, concise, organized for fellow programmers to follow along. Small details make a big difference.",
+      "Pride myself on clear, concise, and organized coding practice. Small details make a big difference.",
   },
 ];
 
