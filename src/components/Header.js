@@ -38,7 +38,7 @@ function Header() {
       </div>
       <div className="appear">
         <div className="welcome">
-          <h2>Scroll or use the navbar to nagiate.</h2>
+          <h2>About me Works Resume</h2>
         </div>
       </div>
     </section>

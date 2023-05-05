@@ -28,16 +28,87 @@
   font-size: larger;
 }
 
+/*----------Skills-----------*/
 .profilebox {
   height: 70%;
   margin-top: 5vh;
   display: flex;
 }
 
-.skillset {
-  width: 50%;
+.skillicon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
 }
 
+.skillset {
+  width: 50%;
+  border: 5px solid blue;
+  color: black;
+}
+
+.skillarray {
+  border: 5px solid black;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.skillbox {
+  display: flex;
+  position: relative;
+}
+
+.s1 {
+  width: 0;
+  border-bottom: 30px solid  #1da1f2;
+  border-left: 52px solid transparent;
+  border-right: 52px solid transparent;
+}
+
+.s2 {
+  width: 104px;
+  height: 60px;
+  background-color: #1da1f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.s3 {
+  width: 0;
+border-top: 30px solid  #1da1f2;
+border-left: 52px solid transparent;
+border-right: 52px solid transparent;
+}
+
+.hex {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.skillbox:hover:after {
+    position: absolute;
+    content: attr(title);
+    width: 500px;
+    top: 30px;
+    left: 100px;
+    height: 60px;
+    line-height: 190%;
+    padding: 1%;
+    background-color: #1da1f2;
+    color: white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+/*----------Profile Box-----------*/
 .wordset {
   display: flex;
   width: 50%;
@@ -110,7 +181,7 @@
 
 .biotext h2 {
   font-family: "Raleway", sans-serif;
-  font-size: 4em;
+  font-size: 3em;
 }
 
 .bioinfo {
