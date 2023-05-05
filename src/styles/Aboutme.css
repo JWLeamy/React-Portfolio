@@ -93,6 +93,13 @@
   justify-content: space-around;
 }
 
+.piclist li {
+  padding: 3%;
+}
+
+.fa-brands {
+  color: #1da1f2;
+}
   
 .biotext {
   position: relative;
@@ -108,11 +115,13 @@
 
 .bioinfo {
   display: flex;
-  align-items: center;
   justify-content: center;
   height: 60%;
-  font-size: 1.75vh;
+  font-size: 3vh;
+  padding: 3%;
+  overflow-y: scroll;
 }
+
 
 .projectlink {
   margin: 3%;

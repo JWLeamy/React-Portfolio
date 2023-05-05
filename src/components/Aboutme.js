@@ -29,8 +29,8 @@ function Aboutme() {
                 <h2>Student</h2>
               </div>
               <ul className="piclist">
-              <li><a href="https://www.linkedin.com/in/john-leamy-b68676238/"><i className="fa-brands fa-linkedin fa-3x"></i></a></li>
-              <li ><a href="https://github.com/JWLeamy"><i className="fa-brands fa-github fa-3x"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/john-leamy-b68676238/"><i className="fa-brands fa-linkedin fa-2x"></i></a></li>
+              <li ><a href="https://github.com/JWLeamy"><i className="fa-brands fa-github fa-2x"></i></a></li>
               </ul>
             </div>
 

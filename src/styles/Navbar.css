@@ -39,6 +39,7 @@
   text-align: center;
   transition: all 0.35s;
   background-color: var(--heavyblue);
+  color:#1da1f2;
 }
 
 .icon {
@@ -63,10 +64,12 @@
   transform: rotate(-45deg);
   fill: var(--lightblue);
   transition: 1s;
+  
 }
 
 .icon svg:hover {
     transition: 1s;
+    background-color:#1da1f2;
 }
 
 .abut:hover {
@@ -97,11 +100,13 @@
   margin: 25%;
   width: max-content;
   text-align: center;
+  color:#1da1f2;
 }
+
 
 .options a:visited {
   text-decoration: none;
-  color: var(--main);
+  color:#1da1f2;
 }
 
 .navcon {
