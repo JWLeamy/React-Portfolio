@@ -10,23 +10,27 @@ const skills = [
     icon: <i class="fa-solid fa-people-group fa-2x"></i>,
     description:
       "Concise comments, informative feedback, and exceptional communication when programming in a team setting.",
+    key: 'teamplayer'
   },
   {
     name: "Responsive",
     icon: <i class="fa-solid fa-laptop fa-2x"></i>,
     description:
       "Make applications functional and satisfying across devices of any size.",
-  },
+    key: 'responsive'
+    },
   {
     name: "Dynamic",
     icon: <i class="fa-solid fa-atom fa-2x"></i>,
     description: "Producing websites and applications that come to life.",
+    key: 'dynamic'
   },
   {
     name: "Detail",
     icon: <i class="fa-solid fa-code fa-2x"></i>,
     description:
       "Pride myself on clear, concise, and organized coding practice. Small details make a big difference.",
+    key: 'detail'
   },
 ];
 
@@ -45,14 +49,17 @@ function Aboutme() {
 
         <div className="skillset">
           <div className="skillarray">
-            {skills.map(({ name, icon, description }) => (
-              <div className="skillicon">
-                <div className="skillbox" title={description}>
+            {skills.map(({ name, icon, description, key }) => (
+              <div className="skillicon" key={key}>
+                <div className="skillbox">
                   <div className="hex">
                     <div className="s1"></div>
                     <div className="s2">{icon}</div>
                     <div className="s3"></div>
                   </div>
+                  <p className="infoskill">
+                    {description}
+                  </p>
                 </div>
                 <h2>{name}</h2>
               </div>
