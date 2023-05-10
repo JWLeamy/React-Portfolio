@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 // Here we import the Navbar.css file to grant access to some additional classNameNames
 import '../styles/Navbar.css';
 import '../styles/Basic.css';
@@ -9,11 +10,11 @@ function Navbar() {
     <nav className="navbar">
       <div className="options">
 
-          <a href="#abmm" className="navbut"><i className="navcon fa-regular fa-user"></i><br />About Me</a>
+          <Link to="/About" className="navbut"><i className="navcon fa-regular fa-user"></i><br />About Me</Link>
 
-          <a href="#psections" className="navbut"><i className="navcon fa-solid fa-computer"></i><br />Projects</a>
+          <Link to="/Works" className="navbut"><i className="navcon fa-solid fa-computer"></i><br />Projects</Link>
 
-          <a href="#footer" className="navbut"><i className="navcon fa-regular fa-envelope"></i><br />Contact Info</a>
+          <Link to="/Contact" className="navbut"><i className="navcon fa-regular fa-envelope"></i><br />Contact Info</Link>
 
       </div>
     </nav>
