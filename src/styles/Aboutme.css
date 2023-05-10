@@ -47,12 +47,13 @@
 
 .skillicon h2 {
   font-size: 2vh;
-  z-index: 2;
+  z-index: 1;
 }
 
 .skillset {
   width: 50%;
   color: black;
+  display: flex;
 }
 
 .skillarray {
@@ -123,6 +124,7 @@ border-right: 39px solid transparent;
   height: 45px;
   box-shadow: inset 60vw 0 0 0 #1da1f2;
   transition: color .6s ease-in-out, box-shadow .6s ease-in-out;
+  z-index: 2;
 }
 
 .infoskill {
@@ -155,6 +157,17 @@ border-right: 39px solid transparent;
     z-index: 5;
 }
  */
+.about {
+  width: 90%;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about div {
+ width: 70%;
+}
 /*----------Profile Box-----------*/
 .wordset {
   display: flex;
@@ -231,15 +244,6 @@ border-right: 39px solid transparent;
   font-size: 3em;
 }
 
-.bioinfo {
-  display: flex;
-  justify-content: center;
-  height: 60%;
-  font-size: 3vh;
-  padding: 3%;
-  overflow-y: scroll;
-}
-
 
 .projectlink {
   margin: 3%;
@@ -286,3 +290,43 @@ border-right: 39px solid transparent;
 .contrast {
   color: #1da1f2;
 }
+
+/*--------------------List of Skills------------------*/
+.bioinfo {
+  height: 70%;
+  font-size: 3vh;
+  padding: 3%;
+
+  overflow-y: scroll;
+}
+
+.bioinfo ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  font-size: 1vh;
+}
+
+.bioinfo ul li{
+  display: flex;
+  flex-grow: 1;
+  width: 45%;
+  padding: 6px;
+  margin: 4px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--heavyblue);
+  color: white;
+  font-size: smaller;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: all ease-in-out 1s;
+}
+
+.bioinfo ul li:hover{
+  transform: scale(1.07);
+  box-shadow: gold;
+  transition: all ease-in-out 1s;
+}
+

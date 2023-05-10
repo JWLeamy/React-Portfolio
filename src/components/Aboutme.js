@@ -10,28 +10,61 @@ const skills = [
     icon: <i class="fa-solid fa-people-group fa-2x"></i>,
     description:
       "Concise comments, informative feedback, and exceptional communication when programming in a team setting.",
-    key: 'teamplayer'
+    key: "teamplayer",
   },
   {
     name: "Responsive",
     icon: <i class="fa-solid fa-laptop fa-2x"></i>,
     description:
       "Make applications functional and satisfying across devices of any size.",
-    key: 'responsive'
-    },
+    key: "responsive",
+  },
   {
     name: "Dynamic",
     icon: <i class="fa-solid fa-atom fa-2x"></i>,
     description: "Producing websites and applications that come to life.",
-    key: 'dynamic'
+    key: "dynamic",
   },
   {
     name: "Detail",
     icon: <i class="fa-solid fa-code fa-2x"></i>,
     description:
       "Pride myself on clear, concise, and organized coding practice. Small details make a big difference.",
-    key: 'detail'
+    key: "detail",
   },
+];
+
+const strengths = [
+  {
+    name: "HTML 5",
+    icon: <i class="fa-brands fa-html5 fa-6x"></i>,
+    key: "HTML 5",
+  },
+  {
+    name: "CSS",
+    icon: <i class="fa-brands fa-css3-alt fa-6x"></i>,
+    key: "CSS",
+  },
+  {
+    name: "JavaScript",
+    icon: <i class="fa-brands fa-square-js fa-6x"></i>,
+    key: "JavaScript",
+  },
+  {
+    name: "Git",
+    icon: <i class="fa-brands fa-git fa-6x"></i>,
+    key: "Git",
+  },
+  {
+    name: "GitHub",
+    icon: <i class="fa-brands fa-github fa-6x"></i>,
+    key: "Github",
+  },
+  {
+    name: "Bootstrap",
+    icon: <i class="fa-brands fa-bootstrap fa-6x"></i>,
+    key: "Bootstrap",
+  }
 ];
 
 function Aboutme() {
@@ -46,7 +79,6 @@ function Aboutme() {
         </p>
       </div>
       <div className="profilebox">
-
         <div className="skillset">
           <div className="skillarray">
             {skills.map(({ name, icon, description, key }) => (
@@ -57,13 +89,29 @@ function Aboutme() {
                     <div className="s2">{icon}</div>
                     <div className="s3"></div>
                   </div>
-                  <p className="infoskill">
-                    {description}
-                  </p>
+                  <p className="infoskill">{description}</p>
                 </div>
                 <h2>{name}</h2>
               </div>
             ))}
+          </div>
+          <div className="about">
+            <div>
+              <p>
+                Aspiring Develeoper with a drive to conceptualize, create, and
+                ultimately provide useful full stack applications.
+                <br />
+                <br />
+                Since writing my first line of code only four months ago, I've
+                expanded my skillset across multiple programming languages and
+                frameworks.
+                <br />
+                <br />
+                This includes (but is not limited to) / JavaScript / Github /
+                Node.js / Express.js / OOP / ORM / Heroku / MySQL / React & More{" "}
+                <br />
+              </p>
+            </div>
           </div>
         </div>
 
@@ -95,27 +143,20 @@ function Aboutme() {
             </div>
 
             <div className="biotext">
-              <h2>Who</h2>
-              <h3>I am and What I do</h3>
+              <h2>Skills</h2>
               <div>
                 <button className="resume">Resume</button>
                 <button className="projectlink">Projects</button>
               </div>
               <div className="bioinfo">
-                <p>
-                  Aspiring Develeoper with a drive to conceptualize, create, and
-                  ultimately provide useful full stack applications.
-                  <br />
-                  <br />
-                  Since writing my first line of code only four months ago, I've
-                  expanded my skillset across multiple programming languages and
-                  frameworks.
-                  <br />
-                  <br />
-                  This includes (but is not limited to) / JavaScript / Github /
-                  Node.js / Express.js / OOP / ORM / Heroku / MySQL / React &
-                  More <br />
-                </p>
+                <ul>
+                  {strengths.map((strength) => (
+                    <li className={strength.name} key={strength.key}>
+                      <span>{strength.icon}</span>
+                      <h2>{strength.name}</h2>
+                    </li>
+                  ))}
+                </ul>
               </div>
             </div>
           </div>
