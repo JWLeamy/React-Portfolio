@@ -32,14 +32,6 @@ function Section() {
     },
   ];
 
-  const toggleFilter = (tag) => {
-    if (filters.includes(tag)) {
-      setFilters(filters.filter((f) => f !== tag));
-    } else {
-      setFilters([...filters, tag]);
-    }
-  };
-
   const filteredProjects =
     filters.length > 0
       ? projects.filter((project) =>

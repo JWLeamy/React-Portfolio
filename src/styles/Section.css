@@ -1,4 +1,4 @@
-
+@import url('https://fonts.cdnfonts.com/css/raleway-5');
 
 .fullthree {
   height: 90%;
@@ -22,22 +22,28 @@
 }
 
 .image {
-  width: 40%;
+  width: 400px;
   height: 200px;
   transition: 0.5s;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
   background-position: center;
   background-size: cover;
 }
 
 .imageinfo {
+  display: flex;
+  flex-direction: column;
   opacity: 0;
   transform: scale(0);
   transition: 0.8s;
-  font-size: 2rem;
   color: white;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.imageinfo:visited{
+  text-decoration: none;
 }
 
 .image:hover{
@@ -48,4 +54,21 @@
   opacity: 1;
   transform: scale(1);
   color: wheat;
+}
+
+.imageinfo h2 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.appinfo {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 1.5rem;
+  margin-top: auto;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
 }
