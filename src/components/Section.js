@@ -43,15 +43,12 @@ function Section() {
   const filteredProjects = filters.length > 0 ? projects.filter((project) => project.tags.some((tag) => filters.includes(tag))) : projects;
 
   return (
-    <section className="three" id='works'>
-      <div id="psections">
-        <h2 className="projecthead">Projects and Applications</h2>
-        <div className="filters">
-          <ul>
-            <li onClick={() => toggleFilter('full-stack')} className={filters.includes('full-stack') ? 'active' : ''}>Full-Stack</li>
-            <li onClick={() => toggleFilter('front-end')} className={filters.includes('front-end') ? 'active' : ''}>Front-End</li>
-            <li onClick={() => toggleFilter('back-end')} className={filters.includes('back-end') ? 'active' : ''}>Back-End</li>
-          </ul>
+    <section className="three" id="works">
+      <div className='fullthree'>
+        <div className='worksheader'>
+          <h2 className="projecthead">Projects</h2>
+          <p>A collection of works created in recent months</p>
+          <p>This is where a few filters will be</p>
         </div>
         <div className="projects">
           {filteredProjects.map((project, index) => (

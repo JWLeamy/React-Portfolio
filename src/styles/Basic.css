@@ -44,19 +44,6 @@ section {
     transition: all ease-in-out 1s;
   }
   
-  .one {
-    background-color: var(--main);
-  }
-  
-  .two {
-    background-color: white;
-  }
-  
-  .three {
-    background-color: var(--main);
-  }
-  
-
   /*------------  Welcome Section Styling  ------------*/
 
 .welcome {
