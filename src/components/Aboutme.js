@@ -69,7 +69,7 @@ const strengths = [
 
 function Aboutme() {
   return (
-    <section className="two" id="abmm">
+    <section className="two" id="about">
       <div className="abmhead">
         <h2>About Me</h2>
         <p>

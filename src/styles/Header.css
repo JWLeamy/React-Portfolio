@@ -157,7 +157,51 @@
   line-height: 40px;
   margin: 0;
 }
+.linkbox {
+  width: 110px;
+  text-align: center;
+  border:.05px solid black;
+  margin: 8px;
+  text-decoration: none;
+  padding: 5px;
+  transition: all ease-in-out 1s;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 4px;
+}
 
+.linkbox:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: all ease-in-out 1s;
+  background-color: #1da1f2;
+}
+
+.aone {
+    animation-name: floatingone;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.atwo {
+  animation-name: floatingtwo;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.athree {
+  animation-name: floatingthree;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.linkbox:visited {
+  color: black;
+}
 @-webkit-keyframes opacity {
   0%,
   100% {
@@ -201,4 +245,22 @@
   100% {
     transform: translate3d(0, -37%, 0);
   }
+}
+
+@keyframes floatingone {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 4px); }
+  100%   { transform: translate(0, -0px); }   
+}
+
+@keyframes floatingtwo {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, -5px); }
+  100%   { transform: translate(0, -0px); }   
+}
+
+@keyframes floatingthree {
+  0% { transform: translate(0,  0px); }
+  50%  { transform: translate(0, 6px); }
+  100%   { transform: translate(0, -0px); }   
 }

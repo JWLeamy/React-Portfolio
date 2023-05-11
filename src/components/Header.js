@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 // Here we import the Header.css file to grant access to some additional classNameNames
 import "../styles/Header.css";
 import "../styles/Basic.css";
@@ -6,6 +7,21 @@ import "../styles/Basic.css";
 
 // My name, opening title (what the client will see when they open the webpage)
 function Header() {
+  const handleScroll = (id) => {
+    setTimeout(() => {
+      const element = document.getElementById(id);
+      const offset = 50;
+      const bodyRect = document.body.getBoundingClientRect().top;
+      const elementRect = element.getBoundingClientRect().top;
+      const elementPosition = elementRect - bodyRect;
+      const offsetPosition = elementPosition - offset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: 'smooth',
+      });
+    }, 200);
+  };
   const name = "Welcome";
 
   return (
@@ -38,7 +54,15 @@ function Header() {
       </div>
       <div className="appear">
         <div className="welcome">
-          <h2>About me Works Resume</h2>
+        <Link to="/About" onClick={() => handleScroll('about')} className="linkbox aone">
+          About
+        </Link>
+        <Link to="/Works" onClick={() => handleScroll('works')} className="linkbox atwo">
+          Projects
+        </Link>
+        <Link to="/Contact" onClick={() => handleScroll('contact')} className="linkbox athree">
+          Contact Info
+        </Link>
         </div>
       </div>
     </section>
@@ -46,9 +70,3 @@ function Header() {
 }
 
 export default Header;
-/* 
-const x = 0
-myname.map((letter, index) => {
-  <span className ="nameletter l" style=`--i:{index}`
-})
-*/

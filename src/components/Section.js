@@ -43,7 +43,7 @@ function Section() {
   const filteredProjects = filters.length > 0 ? projects.filter((project) => project.tags.some((tag) => filters.includes(tag))) : projects;
 
   return (
-    <section className="three">
+    <section className="three" id='works'>
       <div id="psections">
         <h2 className="projecthead">Projects and Applications</h2>
         <div className="filters">
