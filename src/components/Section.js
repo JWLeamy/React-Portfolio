@@ -8,6 +8,14 @@ import GoB from "../Images/GoB.png";
 function Section() {
   const [filters, setFilters] = useState([]);
 
+  function haslink(project) {
+    if(project) {
+      return <a href={project}>
+      <i class="fa-brands fa-space-awesome fa-2x"></i>
+      </a>
+    }
+  }
+
   const projects = [
     {
       name: "Pixum",
@@ -15,6 +23,7 @@ function Section() {
       url: "https://mkalik.github.io/pixum/",
       tags: ["full-stack", "front-end"],
       description: "The easiest way to find new flix",
+      github: "https://github.com/mkalik/pixum"
     },
     {
       name: "SneakyLink",
@@ -22,6 +31,7 @@ function Section() {
       url: "https://sneakylink-project-2.herokuapp.com/",
       tags: ["full-stack", "back-end"],
       description: "Store all your socials in one place",
+      github: "https://github.com/JWLeamy/SneakyLink"
     },
     {
       name: "GoBommarito",
@@ -29,6 +39,7 @@ function Section() {
       url: "https://go-bommarito.herokuapp.com/",
       tags: ["full-stack", "back-end"],
       description: "Blogs for travel, eating, and experience around the globe",
+      github: "https://github.com/malxxy/go-bommarito"
     },
   ];
 
@@ -51,12 +62,18 @@ function Section() {
           {filteredProjects.map((project, index) => (
             
             <div className="image" style={{ backgroundImage: `url(${project.img})` }}>
-              <a href={project.url}>
+              
                 <div className="imageinfo">
                   <h2 className={project.name}>{project.name}</h2>
                   <p className="appinfo">{project.description}</p>
+                  <div>
+                    {haslink(project.url)}
+                    <a href={project.github}>
+                      <i className="fa-brands fa-github fa-2x"></i>
+                    </a>
+                  </div>
                 </div>
-              </a>
+              
             </div>
           ))}
         </div>

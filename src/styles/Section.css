@@ -16,6 +16,7 @@
   border: 5px solid white;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   height: 100%;
   width: 70%;
   align-self: center;
@@ -27,6 +28,8 @@
   transition: 0.5s;
   background-position: center;
   background-size: cover;
+  margin: 10px;
+  border-radius: 10px;
 }
 
 .imageinfo {
@@ -40,6 +43,7 @@
   justify-content: center;
   text-align: center;
   height: 100%;
+  justify-content: space-between;
 }
 
 .imageinfo:visited{
@@ -53,22 +57,26 @@
 .image:hover .imageinfo {
   opacity: 1;
   transform: scale(1);
-  color: wheat;
 }
 
-.imageinfo h2 {
-  margin-top: auto;
-  margin-bottom: auto;
-}
 
 .appinfo {
-  color: white;
   font-family: 'Raleway', sans-serif;
   font-size: 1.5rem;
-  margin-top: auto;
   width: 100%;
 }
 
-a {
-  text-decoration: none;
+i {
+  color: #1da1f2;
+}
+
+.fa-brands {
+  color: #1da1f2;
+}
+
+.imageinfo div {
+  padding: 5px;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
 }
