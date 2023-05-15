@@ -2,10 +2,29 @@
 
 .fullthree {
   height: 90%;
-  border: 5px solid yellow;
   display: flex;
   flex-direction: column;
 }
+
+.worksheader {
+  font-family: 'Raleway', sans-serif;
+}
+
+.worksheader h2 {
+  font-size: 5rem;
+  font-weight: lighter;
+}
+
+.worksheader p{
+  font-size: 1.5rem;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.blu {
+  color: #1da1f2;
+}
+
 
 .worksheader {
   display: flex;
@@ -13,18 +32,20 @@
   align-items: center;
 }
 .projects {
-  border: 5px solid white;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   height: 100%;
-  width: 70%;
+  width: fit-content;
+  max-width: 75vw;
   align-self: center;
+  background-color: var(--main);
+  justify-content: space-around;
+  overflow-y: hidden;
 }
 
 .image {
-  width: 400px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   transition: 0.5s;
   background-position: center;
   background-size: cover;
@@ -46,12 +67,16 @@
   justify-content: space-between;
 }
 
+.imageinfo p {
+  font-size: larger;
+}
+
 .imageinfo:visited{
   text-decoration: none;
 }
 
 .image:hover{
-  box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.6) inset;
+  box-shadow: 0 0 0 150px rgba(0, 0, 0, 0.5) inset;
 }
 
 .image:hover .imageinfo {
@@ -64,6 +89,8 @@
   font-family: 'Raleway', sans-serif;
   font-size: 1.5rem;
   width: 100%;
+  padding: 5px;
+  font-weight: bold;
 }
 
 i {
@@ -79,4 +106,5 @@ i {
   display: flex;
   width: 100%;
   justify-content: space-around;
+  box-shadow: 0 0 0 100px rgba(0, 0, 0, 0.6) inset;
 }

@@ -55,7 +55,7 @@ function Section() {
       <div className="fullthree">
         <div className="worksheader">
           <h2 className="projecthead">Projects</h2>
-          <p>A collection of works created in recent months</p>
+          <p>A collection of <span className="blu">works </span>created in recent months</p>
           <p>This is where a few filters will be</p>
         </div>
         <div className="projects">
