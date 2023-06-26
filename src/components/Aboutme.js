@@ -29,7 +29,7 @@ const skills = [
     name: "Detail",
     icon: <i class="fa-solid fa-code fa-2x"></i>,
     description:
-      "Pride myself on clear, concise, and organized coding practice. Small details make a big difference.",
+      "Clear, concise, and organized coding practice. Small details make a big difference.",
     key: "detail",
   },
 ];
@@ -64,6 +64,16 @@ const strengths = [
     name: "Bootstrap",
     icon: <i class="fa-brands fa-bootstrap fa-6x"></i>,
     key: "Bootstrap",
+  },
+  {
+    name: "MongoDB",
+    icon: <i class="icon-mongodb"></i>,
+    key: "MongoDB",
+  },
+  {
+    name: "Heroku",
+    icon: <i class="icon-mongodb"></i>,
+    key: "Heroku",
   }
 ];
 

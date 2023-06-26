@@ -41,6 +41,28 @@ function Section() {
       description: "Blogs for travel, eating, and experience around the globe",
       github: "https://github.com/malxxy/go-bommarito"
     },
+    {
+      name: "J.A.T.E",
+      img: GoB,
+      tags: ["back-end"],
+      description: "Your own downloadable text editor. Use it to add, edit, and maniputate text as you please.",
+      github: "https://github.com/JWLeamy/Text-Editor"
+    },
+    {
+      name: "Social Network API",
+      img: GoB,
+      tags: ["back-end"],
+      description: "An API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list.",
+      github: "https://github.com/JWLeamy/Social-network-API"
+    },
+    {
+      name: "My Portfolio",
+      img: GoB,
+      url: "https://go-bommarito.herokuapp.com/",
+      tags: ["full-stack", "back-end"],
+      description: "My personal React.js Portfolio.",
+      github: "https://github.com/JWLeamy/React-Portfolio"
+    },
   ];
 
   const filteredProjects =
@@ -58,24 +80,26 @@ function Section() {
           <p>A collection of <span className="blu">works </span>created in recent months</p>
           <p>This is where a few filters will be</p>
         </div>
-        <div className="projects">
-          {filteredProjects.map((project, index) => (
-            
-            <div className="image" style={{ backgroundImage: `url(${project.img})` }}>
+        <div className="psec">
+          <div className="projects">
+            {filteredProjects.map((project, index) => (
               
-                <div className="imageinfo">
-                  <h2 className={project.name}>{project.name}</h2>
-                  <p className="appinfo">{project.description}</p>
-                  <div>
-                    {haslink(project.url)}
-                    <a href={project.github}>
-                      <i className="fa-brands fa-github fa-2x"></i>
-                    </a>
+              <div className="image" style={{ backgroundImage: `url(${project.img})` }}>
+                
+                  <div className="imageinfo">
+                    <h2 className={project.name}>{project.name}</h2>
+                    <p className="appinfo">{project.description}</p>
+                    <div>
+                      {haslink(project.url)}
+                      <a href={project.github}>
+                        <i className="fa-brands fa-github fa-2x"></i>
+                      </a>
+                    </div>
                   </div>
-                </div>
-              
-            </div>
-          ))}
+                
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

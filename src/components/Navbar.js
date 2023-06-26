@@ -7,7 +7,7 @@ function Navbar() {
   const handleScroll = (id) => {
     setTimeout(() => {
       const element = document.getElementById(id);
-      const offset = 50;
+      const offset = 0;
       const bodyRect = document.body.getBoundingClientRect().top;
       const elementRect = element.getBoundingClientRect().top;
       const elementPosition = elementRect - bodyRect;
